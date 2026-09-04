@@ -1,6 +1,6 @@
 /* EDIT HERE: Set Sheza's birthday date/time and, if wanted, replace asset paths in index.html. */
 const settings = {
-  birthdayDate: '2026-04-18T00:00:00+05:30', // YYYY-MM-DDTHH:mm:ss+05:30
+  birthdayDate:'2026-04-18T00:00:00+05:30', // YYYY-MM-DDTHH:mm:ss+05:30
   name: 'Sheza Fathima',
 };
 

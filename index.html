@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>For Sheza — with love</title>
+    <meta name="description" content="A little birthday wish made especially for Sheza Fathima." />
+    <!-- Change the image and link below before sharing on WhatsApp. -->
+    <meta property="og:title" content="For Sheza — with love" />
+    <meta property="og:description" content="A small birthday surprise for Sheza Fathima." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/sheza-elegance.jpg" />
+    <meta name="theme-color" content="#24151d" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="petal-layer" aria-hidden="true"></div>
+    <header class="nav">
+      <a class="monogram" href="#top" aria-label="Back to top">S</a>
+      <button class="sound-toggle" type="button" aria-label="Play background music"><span>♫</span><em>Sound</em></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <p class="eyebrow reveal">A birthday letter for</p>
+        <h1 class="reveal">Sheza<br /><i>Fathima</i></h1>
+        <p class="nickname reveal">our pottathiiii ✦</p>
+        <div class="hero-photo reveal"><img src="assets/sheza-elegance.jpg" alt="Sheza Fathima in a beautiful purple dress" /></div>
+        <a class="scroll-hint" href="#countdown">Scroll for your surprise <span>↓</span></a>
+      </section>
+
+      <section id="countdown" class="countdown section section-dark">
+        <p class="eyebrow">The celebration begins in</p>
+        <div class="clock" aria-live="polite">
+          <div><strong id="days">00</strong><span>days</span></div><b>:</b>
+          <div><strong id="hours">00</strong><span>hours</span></div><b>:</b>
+          <div><strong id="minutes">00</strong><span>mins</span></div><b>:</b>
+          <div><strong id="seconds">00</strong><span>secs</span></div>
+        </div>
+        <p class="countdown-note">A little more waiting. A lot more love.</p>
+      </section>
+
+      <section class="reveal-card section">
+        <p class="eyebrow">A hidden little thing</p>
+        <h2>Scratch away<br />the stardust.</h2>
+        <div class="scratch-wrap" id="scratchWrap">
+          <div class="wish" aria-hidden="true"><span>For the girl who makes<br />ordinary days softer:</span><strong>May this year hold you<br />as gently as you hold<br />everyone else.</strong><small>— happy birthday, Sheza</small></div>
+          <canvas id="scratchCanvas" aria-label="Scratch the card to reveal your birthday wish"></canvas>
+          <span class="scratch-label">touch &amp; reveal</span>
+        </div>
+      </section>
+
+      <section class="portrait-story section section-dark">
+        <div class="story-photo"><img src="assets/sheza-floral.jpg" alt="Sheza wearing jasmine flowers" /></div>
+        <p class="eyebrow">Just a reminder</p>
+        <h2>Grace looks<br /><i>good</i> on you.</h2>
+        <p class="body-copy">May every room you walk into feel a little brighter, every dream feel a little closer, and every new year feel more beautifully yours.</p>
+      </section>
+
+      <section class="gallery section">
+        <p class="eyebrow">Little frames, big feelings</p>
+        <h2>Her kind of<br /><i>beautiful.</i></h2>
+        <div class="gallery-grid">
+          <figure class="large"><img src="assets/sheza-elegance.jpg" alt="Sheza's portrait" /><figcaption>softness in purple</figcaption></figure>
+          <figure><img src="assets/sheza-floral.jpg" alt="Sheza with flowers in her hair" /><figcaption>flowers &amp; gold</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="finale section">
+        <div class="sparkle">✦</div>
+        <p class="eyebrow">Today, we celebrate you</p>
+        <h2>Happy birthday,<br /><i>Sheza.</i></h2>
+        <p>Keep being the tender, radiant, unforgettable you.</p>
+        <button class="celebrate" type="button">Send some petals <span>✿</span></button>
+      </section>
+    </main>
+    <footer>Made with love, only for Sheza.</footer>
+    <audio id="bgMusic" loop preload="metadata"><source src="assets/birthday-melody.weba" type="audio/webm" /></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
